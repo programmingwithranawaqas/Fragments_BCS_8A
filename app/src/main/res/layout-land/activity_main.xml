@@ -26,14 +26,6 @@
         android:id="@+id/detailfrag"
         />
 
-    <fragment
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        tools:layout="@layout/fragment_list"
-        class="com.example.fragments_bcs_8a.ListFrag"
-        android:id="@+id/Myfrag"
-        />
 
 
 
