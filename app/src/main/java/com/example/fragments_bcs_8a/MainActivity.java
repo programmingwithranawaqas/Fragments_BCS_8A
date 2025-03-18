@@ -90,5 +90,15 @@ public class MainActivity extends AppCompatActivity implements ListFrag.OnContac
         tvPhone.setText(contact.getPhone());
         tvName.setText(contact.getName());
 
+        if(portrait!=null)
+        {
+            // portrait mode
+            manager.beginTransaction()
+                    .hide(listFrag)
+                    .show(detailFrag)
+                    .addToBackStack(null)
+                    .commit();
+        }
+
     }
 }
